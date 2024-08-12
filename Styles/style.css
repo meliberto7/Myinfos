@@ -1,0 +1,146 @@
+@keyframes fundo {
+
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+
+}
+
+@keyframes borda {
+
+    0% {
+        border: 3px solid white;
+        border-top: 3px solid darkturquoise;
+    }
+    25% {
+        border: 3px solid white;
+        border-right: 3px solid darkturquoise;
+    }
+    50% {
+        border: 3px solid white;
+        border-bottom: 3px solid darkturquoise;
+    }
+    75% {
+        border: 3px solid white;
+        border-left: 3px solid darkturquoise;
+    }
+    100% {
+        border: 3px solid white;
+        border-top: 3px solid darkturquoise;
+    }
+
+
+}
+
+body {
+
+    height: 100vh;
+    width: 100%;
+    margin-left: 0%;
+    background: linear-gradient(45deg, cyan, purple, yellow);
+    background-repeat: no-repeat;
+    background-size: 200% 200%;
+    animation: fundo 7s ease-in-out infinite;
+
+}
+
+#fundo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+#subfundo {
+
+    height: 400px;
+    width: 400px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+    text-align: center;
+    padding-left: 0%;
+    
+    animation: borda 3s ease-in-out infinite;
+
+}
+
+#subfundo h2 {
+
+    color: transparent;
+    font-size: 30px;
+    font-family: Arial;
+    background-color: white;
+    background-clip: text;
+
+}
+
+#subfundo div {
+
+    display: flex;
+    justify-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+
+#subfundo img {
+
+    margin-left: 5px;
+    border: 1px solid white;
+
+}
+
+#imgjava {
+
+    background-color: white;
+
+}
+
+footer {
+
+    background-color: black;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    color: white;
+
+}
+
+#subfundo p {
+
+    text-align: start;
+    margin-left: 5px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    margin-top: 0%;
+
+}
+
+footer div img:hover {
+
+    box-shadow: 0 0 15px yellow;
+
+}
+
+#buttonCntts {
+
+    text-decoration: none;
+    color: transparent;
+    font-size: 25px;
+    font-family: 'Lucida Sans Unicode';
+    text-transform: uppercase;
+    background-color: black;
+    background-clip: text;
+
+}
